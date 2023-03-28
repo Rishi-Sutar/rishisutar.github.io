@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./glightbox.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Rishikesh Sutar</title>
+</head>
+
+<body>
+    <div id="loading">
+        <svg class="pl" viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="pl-grad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#d4b504" />
+                    <stop offset="100%" stop-color="#d4b000" />
+                </linearGradient>
+            </defs>
+            <circle class="pl__ring" r="56" cx="64" cy="64" fill="none" stroke="hsla(0,10%,10%,0.1)" stroke-width="16"
+                stroke-linecap="round" />
+            <path class="pl__worm"
+                d="M92,15.492S78.194,4.967,66.743,16.887c-17.231,17.938-28.26,96.974-28.26,96.974L119.85,59.892l-99-31.588,57.528,89.832L97.8,19.349,13.636,88.51l89.012,16.015S81.908,38.332,66.1,22.337C50.114,6.156,36,15.492,36,15.492a56,56,0,1,0,56,0Z"
+                fill="none" stroke="url(#pl-grad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"
+                stroke-dasharray="44 1111" stroke-dashoffset="10" />
+        </svg>
+    </div>
+    <button onclick="menuToggle()" class="menu-toggle">
+        <i class='bx bx-menu-alt-right'></i>
+    </button>
+
+    <a href="#home" id="scroll_up">
+        <i class='bx bxs-chevrons-up'></i>
+    </a>
+
+    <header id="navi" class="d-flex flex-column justify-content-center">
+        <nav id="navbar" class="navbar nav-menu">
+            <ul>
+                <li>
+                    <a href="#home" class="nav-link" onclick="navClose()">
+                        <i class='bx bx-home'></i>
+                        <span class="hide-link">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">
+                        <i class='bx bx-user'></i>
+                        <span class="hide-link">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#qua" class="nav-link ">
+                        <i class='bx bx-file-blank'></i>
+                        <span class="hide-link">Qualification</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link ">
+                        <i class='bx bx-code-curly'></i>
+                        <span class="hide-link">Skills</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#project" class="nav-link ">
+                        <i class="bx bx-book-content"></i>
+                        <span class="hide-link">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#certification" class="nav-link ">
+                        <i class='bx bx-certification'></i>
+                        <span class="hide-link">Certifications</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link ">
+                        <i class='bx bx-envelope'></i>
+                        <span class="hide-link">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="backgroundAnimation">
+
+        <div class="name">
+            <p class="tag">&lt;home&gt;</p>
+            <h1>RISHIKESH SUTAR </h1>
+            <p class="typing">I'M a <span class="writer"></span></p>
+            <div class="social">
+
+                    <a href="https://www.linkedin.com/in/rishisutar/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+
+                    <a href="https://github.com/Rishi-Sutar" target="_blank"><i class='bx bxl-github'></i></a>
+
+                    <a href="https://www.reddit.com/user/ArticleMuch205" target="_blank"><i class='bx bxl-reddit'></i></a>
+
+                    <a href="https://medium.com/@rishi-sutar" target="_blank"><i class='bx bxl-medium-square'></i></a>
+            </div>
+            <p class="tag">&lt;/home&gt;</p>
+        </div>
+
+
+    </section>
+
+    <div class="resume">
+        <a href="https://drive.google.com/file/d/1EDZv1O2yepGA1HJU25ARU-rmed5AHjSM/view?usp=share_link"
+            target="_blank">RESUME</a>
+    </div>
+    <section id="about" class="section-2 d-flex align-items-center">
+        <p class="tag">
+            &lt;about&gt;
+        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                    <img class="photo" src="./photo.png" alt="" srcset="">
+                </div>
+                <div class="info col-md-12 col-lg-8">
+                <br>
+
+                    <h1>Fullstack Developer & Programmer</h1>
+                    <p class="title">I'm a tech-enthusiast and an ambitious leader!</p>
+                    <ul>
+                        <li><strong>Degree : </strong> B.Tech in Computer Science and Engineering</li>
+                        <li><strong>College :</strong> Dr. Babasaheb Ambedkar Technological University, Lonere</li>
+                        <li><strong>CGPA : </strong> 8.29/10</li>
+                        <li><strong>Interests : </strong> MERN stack development, Cloud Computing</li>
+                        <li><strong>Hobbies : </strong> Playing Chess, Listening Podcasts, binge-watching</li>
+                    </ul>
+                    <p>Being a technology enthusiast, I love exploring new technologies and leveraging them to solve
+                        real-life problems. I am passionate about Web Dev, Cloud Computing & Coding along with the
+                        ability
+                        to learn new concepts and have great ideas. I'm driven by the will to create an impact and
+                        encourage
+                        diversity and inclusion in communities</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="tag">
+            &lt;/about&gt;
+        </p>
+    </section>
+    <section id="qua" class="section-3">
+        <p class="tag">
+            &lt;timeline&gt;
+        </p>
+
+        <div class="timeline">
+            <div class="card">
+                <div class="card-title">
+                    <div class="card-head">
+                        B. TECH. in Computer Engineering
+                    </div>
+                    <div class="card-year">
+                        2018-2022
+                    </div>
+                </div>
+                <div class="card-name">
+                    Dr. Babasaheb Ambedkar Technological University, Lonere
+                </div>
+                <ul class="card-details">
+                    <li>8.29 CGPA</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <div class="card-head">
+                        Higher Secondary School Certificate
+                    </div>
+                    <div class="card-year">
+                        2016-2018
+                    </div>
+                </div>
+                <div class="card-name">
+                    K.V. Pendharkar College of Arts, Science & Commerce Dombivali
+                </div>
+                <ul class="card-details">
+                    <li>73.69%</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <div class="card-head">
+                        Secondary School Certificate (SSC)
+                    </div>
+                    <div class="card-year">
+                        2015-2016
+                    </div>
+                </div>
+                <div class="card-name">
+                    Prakash VIdyalaya, Dombivali
+                </div>
+                <ul class="card-details">
+                    <li>84.80%</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <p class="tag">
+            &lt;/timeline&gt;
+        </p>
+        <!-- <div class="progress">
+            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div> -->
+    </section>
+
+    <section class="section-4" id="skills">
+        <p class="tag">
+            &lt;skills&gt;
+        </p>
+        <br>
+        <div class="container">
+            <p class="title">
+                I am proficient in C++, Javascript, Python and Data Structure. Also I'm pretty familiar with Mernstack Web
+                Development & Cloud.
+            </p>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                FRONTEND DEVELOPMENT
+                            </p>
+                            <p>
+                                85%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                FRONTEND DEVELOPMENT
+                            </p>
+                            <p>
+                                85%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                CLOUD
+                            </p>
+                            <p>
+                                65%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                GRAPHIC DESIGNING
+                            </p>
+                            <p>
+                                75%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                C++
+                            </p>
+                            <p>
+                                80%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                PYTHON
+                            </p>
+                            <p>
+                                70%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-wrap">
+                        <div class="skill-name">
+                            <p>
+                                DATA STRUCTURE
+                            </p>
+                            <p>
+                                60%
+                            </p>
+                        </div>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="skill-icons">
+            <img src="./icons/c-.png" height="60" width="auto" alt="">
+            <img src="./icons/python.png" height="60" width="auto" alt="">
+            <img src="./icons/html.png" height="60" width="auto" alt="">
+            <img src="./icons/css-3.png" height="60" width="auto" alt="">
+            <img src="./icons/js.png" height="60" width="auto" alt="">
+            <img src="./icons/bootstrap.png" height="60" width="auto"
+                style="background-color: aliceblue; border-radius: 10px;">
+            <img src="./icons/react.png" height="60" width="auto" alt="">
+            <img src="./icons/nodejs.png" height="60" width="auto" alt="">
+            <img src="./icons/database.png" height="60" width="auto" alt="">
+            <img src="./icons/git.png" height="60" width="auto" alt="">
+            <img src="./icons/azure.png" height="60" width="auto" alt="">
+            <img src="./icons/linux.png" height="60" width="auto" alt="">
+
+        </div>
+        <marquee scrollamount="20" class="skills-icon-marquee">
+
+            <img src="./icons/c-.png" height="60" width="auto" alt="">
+            <img src="./icons/python.png" height="60" width="auto" alt="">
+            <img src="./icons/html.png" height="60" width="auto" alt="">
+            <img src="./icons/css-3.png" height="60" width="auto" alt="">
+            <img src="./icons/js.png" height="60" width="auto" alt="">
+            <img src="./icons/bootstrap.png" height="60" width="auto">
+            <img src="./icons/react.png" height="60" width="auto" alt="">
+            <img src="./icons/nodejs.png" height="60" width="auto" alt="">
+            <img src="./icons/database.png" height="60" width="auto" alt="">
+            <img src="./icons/git.png" height="60" width="auto" alt="">
+            <img src="./icons/azure.png" height="60" width="auto" alt="">
+            <img src="./icons/linux.png" height="60" width="auto" alt="">
+        </marquee>
+        <br>
+
+
+
+        <p class="tag">
+            &lt;/skills&gt;
+        </p>
+    </section>
+
+    <section id="project" class="section-5">
+        <p class="tag">
+            &lt;projects&gt;
+        </p>
+        <br>
+        <h1>Here are some of the projects that I created while learning concepts and applying my knowledge.</h1>
+        <div class="project-toggle">
+            <div class="menu-buttons text-center">
+                <button data-filter="*">All</button>
+                <button data-filter=".web">Web</button>
+                <button data-filter=".pth">Python</button>
+                <button data-filter=".dl">Deep Learning</button>
+                <!-- <button data-filter=".misc">Misc.</button> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="row grid">
+                <div class="col-md-4 grid-item web">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/portfolio.png" alt="">
+                        <div class="project-detail">
+                            <h1>Portfolio Website</h1>
+                            <!-- <p>
+                                My Portfolio Website which showcases projects, skills, education and any other extra-curicular activities <br> 
+                                <strong>HTML, CSS, bootstrap, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href=""><i class='bx bx-link-external'></i></a>
+                                <a href="https://github.com/Rishi-Sutar/Portfolio" target="_blank"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-item web">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/crypto.png" alt="">
+                        <div class="project-detail">
+                            <h1>Crypto-tracker</h1>
+                            <!-- <p>
+                                React app to track cryptocurrency price with help of Coingecko API. It takes data through api and display it with react <br>
+                                <strong>React.js, HTML, CSS, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href="https://crypto-tracker-28.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                                <a href="https://github.com/Rishi-Sutar/Crypto-tracker"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-item pth">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/pingpong.png" alt="">
+                        <div class="project-detail">
+                            <h1>Ping Pong Game</h1>
+                            <!-- <p>
+                                React app to track cryptocurrency price with help of Coingecko API. It takes data through api and display it with react <br>
+                                <strong>React.js, HTML, CSS, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href="https://github.com/Rishi-Sutar/Ping-Pong-Game" target="_blank"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-item pth">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/url.png" alt="">
+                        <div class="project-detail">
+                            <h1>URL Shortener</h1>
+                            <!-- <p>
+                                React app to track cryptocurrency price with help of Coingecko API. It takes data through api and display it with react <br>
+                                <strong>React.js, HTML, CSS, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href="https://github.com/Rishi-Sutar/URL_shortener" target="_blank"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-item pth">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/tictactoe.png" alt="">
+                        <div class="project-detail">
+                            <h1>Tic-Tac-Toe</h1>
+                            <!-- <p>
+                                React app to track cryptocurrency price with help of Coingecko API. It takes data through api and display it with react <br>
+                                <strong>React.js, HTML, CSS, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href="https://github.com/Rishi-Sutar/Tic-Tac-Toe" target="_blank"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-item dl">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/weapon.png" alt="">
+                        <div class="project-detail">
+                            <h1>Weapon Detection</h1>
+                            <!-- <p>
+                                React app to track cryptocurrency price with help of Coingecko API. It takes data through api and display it with react <br>
+                                <strong>React.js, HTML, CSS, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href="https://github.com/Rishi-Sutar/Weapon-Detection-and-Notification" target="_blank"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-item pth">
+                    <div class="certificate">
+                        <img class="img-fluid" src="./projects/voting.png" alt="">
+                        <div class="project-detail">
+                            <h1>Voting System</h1>
+                            <!-- <p>
+                                React app to track cryptocurrency price with help of Coingecko API. It takes data through api and display it with react <br>
+                                <strong>React.js, HTML, CSS, Javascript</strong>
+                            </p> -->
+                            <div class="btn-links">
+                                <a href="https://github.com/Rishi-Sutar/Voting_System" target="_blank"><i class='bx bxl-github'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="tag">
+            &lt;/projects&gt;
+        </p>
+    </section>
+    <section id="certification" class="section-6">
+        <p class="tag">
+            &lt;certifications&gt;
+        </p>
+        <br>
+        <div class="container">
+            <div class="project-area">
+                <div class="container">
+                    <div class="row gridview">
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/azure.png" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/azure.png" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/cert1.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/cert1.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/digital.png" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/digital.png" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/iirs.png" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/iirs.png" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/oracle.png" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/oracle.png" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/python.png" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/python.png" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/react.png" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/react.png" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/ar.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/ar.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/bootstrap.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/bootstrap.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/sql.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/sql.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/wp.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/wp.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/ainn.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/ainn.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/deep.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/deep.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/reactjs.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/reactjs.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item">
+                            <div class="certificate">
+                                <img class="img-fluid" src="./certifications/reactess.PNG" alt="">
+                                <div class="project-detail">
+                                    <a href="./certifications/reactess.PNG" target="_blank"><i class='bx bx-show-alt' style="color:white; font-size:50px;"></i></a>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="tag">
+            &lt;/certifications&gt;
+        </p>
+    </section>
+
+    <section id="contact" class="section-7">
+        <p class="tag">
+            &lt;contact&gt;
+        </p>
+        <div class="container">
+            <div class="contact">
+                <div class="loc">
+                    <p>
+                        <i class='bx bx-current-location'></i>
+                        Mumbai, Maharashtra
+                    </p>
+                </div>
+                <div class="email">
+                    <p>
+                        <i class='bx bxl-gmail'></i>
+                        Email : <a href="mailto:rishisutar183@gmail.com">rishisutar183@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="details">
+    
+                        <a href="https://www.linkedin.com/in/rishisutar/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+    
+                        <a href="https://github.com/Rishi-Sutar" target="_blank"><i class='bx bxl-github'></i></a>
+    
+                        <a href=""><i class='bx bxl-reddit'></i></a>
+    
+                        <a href="https://rishi-sutar.medium.com/" target="_blank"><i class='bx bxl-medium-square'></i></a>
+    
+    
+            </div>
+        </div>
+
+        <p class="tag">
+            &lt;/contact&gt;
+        </p>
+        <div class="copyright">
+            <p><i class='bx bx-copyright'></i>Rishikesh Sutar</p>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="./typewriter.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./glightbox.min.js"></script>
+    <script src="./meg_script.js"></script>
+
+    <script>
+
+        // Loader Timer
+        document.onreadystatechange = function () {
+            var state = document.readyState;
+            if (state == 'interactive') {
+                document.getElementById('loading').style.visibility = "hidden";
+            } else if (state == 'complete') {
+                setTimeout(function () {
+                    document.getElementById('interactive');
+                    document.getElementById('loading').style.visibility = "hidden";
+                }, 1000);
+            }
+        }
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            if (document.documentElement.scrollTop > 500) {
+                document.getElementById("scroll_up").style.display = "block";
+            } else {
+                document.getElementById("scroll_up").style.display = "none";
+            }
+        }
+
+        // // Trying
+        // function navClose() {
+        //     document.getElementsByTagName("header").style.margin = "0px 0px 0px 0px";
+        // }
+
+
+        // navigation bar
+        function menuToggle() {
+            var element = document.getElementById("navi");
+            element.classList.toggle("header-toggle");
+        }
+
+        $('.grid').isotope({
+            itemSelector: '.grid-item',
+            percentPosition: true,
+            masonry: {
+                // use outer width of grid-sizer for columnWidth
+                columnWidth: '.grid-item'
+            }
+        })
+
+        $('.gridview').isotope({
+            itemSelector: '.item',
+            percentPosition: true,
+            masonry: {
+                // use outer width of grid-sizer for columnWidth
+                columnWidth: '.item'
+            }
+        })
+
+        $('.menu-buttons').on('click', 'button', function () {
+            var selector = $(this).attr('data-filter');
+            $('.grid').isotope({
+                filter: selector
+            });
+            return false;
+        });
+
+    </script>
+
+</body>
+
+</html>
